@@ -1,0 +1,94 @@
+\documentclass[12pt]{report}
+\usepackage{lipsum}
+%\usepackage[totle={7in, 9in}]{geometry}
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Title of your report}
+\author{Name of the author}
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+  \lipsum[1]
+\end{abstract}
+
+\chapter{First Chapter}
+
+
+
+\section{Introduction}
+
+\begin{displaymath}
+  \left \{
+    \begin{array}{l}
+      -\Delta u = f, \mbox{ in } \Omega,\\
+      \\
+      u = g, \mbox{ on } \partial\Omega.
+    \end{array}
+  \right .
+\end{displaymath}
+
+  \lipsum[2]
+\section{Heat flow modeling}
+\lipsum[3]
+
+\vskip 2em
+
+$$
+  \left \{
+    \begin{array}{l}
+      -\Delta u = f, \mbox{ in } \Omega,\\
+      \\
+      u = g, \mbox{ on } \partial\Omega.
+    \end{array}
+  \right .
+  $$
+
+  \begin{table}
+    \centering
+    \begin{tabular}{|lll|}
+      \hline
+      Iteration number & $L_2$ error & Residual\\
+      \hline      
+      1  & $1.0e-08$  & $5.0e-09 $\\
+      \hline      
+      1  & $1.0e-08$  & $5.0e-09 $\\
+      \hline
+    \end{tabular}
+    \caption{Caption of a table}
+  \end{table}
+
+\subsection{The mathematical model}
+  \lipsum[4]
+\subsection{Property of this model}
+\lipsum[5]
+
+\subsubsection{some time}
+
+\lipsum[6]
+\section{Solution of the model}
+  \lipsum[6]
+\subsection{Analytical solution}
+  \lipsum[7]
+\subsection{Numerical solution}
+\lipsum[8]
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{pics/iotscUMLogo.png}  
+  \caption{Caption of this logo}
+\end{figure}
+
+
+\chapter{Last Chapter}
+\section{Conclution}
+  \lipsum[1]
+
+
+
+\end{document}
